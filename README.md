@@ -3,10 +3,11 @@
 You're looking at an organized individual with a knack for data and numbers. Eyeing to be part of a professionally data driven team in an esteemed organization to learn some new relevant skills and work on real-time projects meanwhile upgrading my current skillset, to be an important asset for the company.
 
 ## [Project 1: Loan Prediction](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/Loan_prediction_Git.ipynb)
+---
 ### Overview -
-- A Kaggle competition classification dataset aiming at predicting the status of **loan approval** (Y = 1 | N = 0) on the basis of multiple variables associated with it.
+- A Kaggle competition classification dataset aiming at predicting the status of **loan approval** (Y = 1 and N = 0) on the basis of multiple variables associated with it.
 - Found patterns through EDA which further helped in feature engineering.
-- The target variable was having class imbalance, so applied **re-sampling techniques** to deal with it (Random Undersampling, Random Oversampling and SMOTE).
+- The target variable was having class imbalance, so applied **re-sampling techniques** (Random Undersampling, Random Oversampling and SMOTE) to deal with it.
 - Predictive Modeling pipeline of the project used the following:
     
     - Algorithms:
@@ -23,10 +24,10 @@ You're looking at an organized individual with a knack for data and numbers. Eye
     - Optimization:
          * used **Grid Search CV** for tuning Hyper-parameters.
          * tried a basic **Ensemble modeling** method, in order to observe improvement (if any) in the metrics score.
- ---
-         
+ 
 
 ## [Project 2: House Price prediction (Region - Ames, Iowa, USA)](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/House_Price_prediction_Git.ipynb)
+---
 ### Overview -
 - This **regression model** was downloaded from the Kaggle competition with the main objective being, prediction of housing sales prices of Ames city in Iowa state of USA.
 - The dataset contains **81** columns to deal with.
@@ -44,23 +45,24 @@ You're looking at an organized individual with a knack for data and numbers. Eye
         - **XGBoost**
         - **Light GBM**
         
+     
      - Metrics (for evaluation):
         - **MAPE**
         - **RMSLE**
         
+     
      - Optimization:
         - **Grid Search CV**, for tuning Hyper-parameters.
         - used a basic **Ensemble modeling** method. (RMSLE - 0.0724)
         
-        
----
 
 
 ## [Project 3: Credit Card Fraud Detection](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/Credit_card_Fraud_Detection_Git.ipynb)
+---
 ### Overview - 
-- A supervised classification problem with the objectives to find patterns about time of fraud during a day (if any) and making a prediction on that basis to identify first-hand whether the transaction belongs to fraud or legit category. The dataset was obtained from Kaggle.
+- A supervised classification problem with the underlying objectives were to find patterns about time of fraud during a day (if any) and making a prediction on that basis to identify first-hand whether the transaction belongs to fraud or legit category. The dataset was obtained from Kaggle.
 - The dataset has majority of variables unavailable to us due to prior PCA compression, only 3 variables were directly available for our purpose.
-- Target variable was highly imbalanced (**0: 99.82% | 1: 0.18%**), so the application of **re-sampling techniques** (Random Undersampler, Random Oversampler and SMOTE) appeared to be highly prudent.
+- Target variable was highly imbalanced (**0: 99.82%** and **1: 0.18%**), so the application of **re-sampling techniques** (Random Undersampler, Random Oversampler and SMOTE) appeared to be highly prudent.
 - Post scrutinizing the dataset, I found that fraud transaction has a much higher probabaility to occur during the night time period specifically between **2:00 am - 3:00 am**.
 - Predictive Modeling pipeline of the project used the following: 
 
@@ -71,6 +73,7 @@ You're looking at an organized individual with a knack for data and numbers. Eye
         - **K-Nearest Neighbors**
         - **Support Vector Classifier**
         
+     
      - Metrics (for evaluation):
         - **Accuracy Score**
         - **ROC - AUC Score**
@@ -80,12 +83,11 @@ You're looking at an organized individual with a knack for data and numbers. Eye
     - **Random Oversampling with Random Forest Classifier**, reasons:
         - Accuracy Score = **99.993527%**
         - ROC - AUC Score = **99.993508%**
-        - Confusion matrix = **False Negatives - 0** | **False Positives - 11**
-
----
+        - Confusion matrix = **False Negatives - 0** and **False Positives - 11**
 
 
 ## [Micro-Project: Weather in Szeged, Hungary](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/Weather_Szeged_Git.ipynb)
+---
 ### Overview -
 - To find the factors having an impact over the weather conditions in Szeged, Hungary. A kaggle dataset containing hourly/daily summary of the data between the time period 2006 - 2016.
 - Much of the time was spent into the **EDA** to understand the latent patterns.
@@ -103,10 +105,9 @@ You're looking at an organized individual with a knack for data and numbers. Eye
         
 were derived to be the most significant variables to impact the Temperature of that region.
 
----
-
 
 ## [Micro-Project: Cardiotocography - Fetal State Class Code Prediction](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/Cardiotocography_Git.ipynb)
+---
 ### Overview - 
 - This multiclass classification prediction dataset was obtained from **UCI Machine Learning Repository**. Classification was both with respect to a morphologic pattern (A, B, C. ...) and to a fetal state (N, S, P). Therefore, the dataset can be used either for 10-class or 3-class experiments. I focused on the prediction of **3-class fetal state** in my study of the case.
 - The target variable has 3 classes:
@@ -122,11 +123,10 @@ were derived to be the most significant variables to impact the Temperature of t
         - ROC - AUC Score = **92.24%**
         
     - Tried using repeated **Stratified KFold**, Accuracy Score = **92.5%**
-    
----
 
 
 ## [Micro-Project: Mall Customers - Customer Segmentation using K-means Clustering](https://github.com/duh-its-Batman/Data-Science-and-ML-Projects/blob/master/Mall_Customers_Git.ipynb)
+---
 ### Overview - 
 - Implementation of K-mean Clustering algorithm comprised under unsupervised learning. Focused on customer segmentation application of clustering algorithm by using the mall customers dataset from Kaggle.
 - Was able to find some significant patterns in the data which can help us in deriving important buziness decisions later.
